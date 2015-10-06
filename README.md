@@ -1,15 +1,15 @@
 # mysql2mongo
 Transfer data from mysql to mongodb
 
-# Before you start
+## Before you start
 * node version 0.12 (if you want node@4.0+, see other branches)
 
-# install
+## install
 ```
 npm install mysql2mongo@1.0
 ```
 
-# usage
+## usage
 ```js
 var translator = require('mysql2mongo');
 
@@ -28,5 +28,5 @@ var mongoOptions = {
 translator(mysqlOptions, mongoOptions);
 ```
 
-# LICENSE
+## LICENSE
 MIT
